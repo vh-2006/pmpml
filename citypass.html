@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Pass form</title>
+    <link rel="stylesheet" href="city.css">
+    <link rel="stylesheet" href="https://unicons.iconscount.com/release/v4.0.0/css/line.css">
+    
+</head>
+<body>
+    <div class="Container">
+        <header>City Pass Registration</header>
+
+        <form onsubmit="myFunction()">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+                    <div class="fields">
+                        <div class="input-fields">
+                            <label>Full Name</label>
+                            
+                            <input id="nameid" type="text" placeholder="Enter Your Name">
+                        </div>
+
+                        <div class="input-fields">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter birth date" required>
+                        </div>
+
+                        <div class="input-fields">
+                            <label>Email</label>
+                            <input type="text" placeholder="Enter Your email" required>
+                        </div>
+                        <div class="input-fields">
+                            <label>Mobile Number</label>
+                            <input id="mobiles" type="number" placeholder="Enter mobile number" required>
+                        </div>
+                        <div class="input-fields">
+                            <label>Gender</label>
+                            <input id="idgender" type="text" placeholder="Enter your Gender" required>
+                        </div>
+                        <div class="input-fields">
+                            <label>Alternate Mobile Number</label>
+                            <input type="number" placeholder="Enter alternate mobile number" required>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Identity Details</span>
+                    <div class="fields">
+                        <div class="input-fields">
+                            <label>ID Type</label>
+                            <input type="text" id="idtype" placeholder="Enter ID type" required>
+                        </div>
+
+                        <div class="input-fields">
+                            <label>ID Number</label>
+                            <input type="number" id="idnum" placeholder="Enter ID number" required>
+                        </div>
+
+                        <div class="input-fields">
+                            <label>Issued Date</label>
+                            <input type="date"  placeholder="Enter isssued date">
+                        </div>
+                        <div class="input-fields">
+                            <label>Expiry Date</label>
+                            <input type="date" placeholder="Enter mobile number">
+                        </div>
+                        <div class="input-fields">
+                            <label>Date of Pass</label>
+                            <input type="date" id="idate" placeholder="Enter Pass date" required>
+                        </div>
+                        <div class="input-fields">
+                            <label>Reason For Traveling</label>
+                            <input type="text" placeholder="Enter reson for traveling" >
+                        </div>
+                        
+                        
+                    </div>
+
+                    <form action="/pay40.html">
+                        <button class="nextBtn" id="but" type="submit">
+                            <span class="btnText">Next</span><br>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                            </svg>
+                      </button>
+                </form>   
+                </div>
+            </div>
+    
+        </form>
+    </div>
+    <script>
+
+        function myFunction(){
+        var mobile=document.getElementById("mobiles").value;
+        const namea=document.getElementById("nameid").value;
+        const date=document.getElementById("idate").value;
+        const gender=document.getElementById("idgender").value;
+        const id=document.getElementById("idtype").value;
+        const idnum=document.getElementById("idnum").value;
+        const button=document.getElementById("but").value;
+        
+           
+            sessionStorage.setItem("name", namea);
+            sessionStorage.setItem("date", date);
+            sessionStorage.setItem("mobile", mobile);
+            sessionStorage.setItem("gender", gender);
+            sessionStorage.setItem("id", id);
+            sessionStorage.setItem("idnum", idnum);
+            window.location.href = "https://vh-2006.github.io/pmpml/pay40.html";
+ 
+        }
+        
+    </script>
+    
+</body>
+</html>

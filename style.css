@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar {
+    height: 90px;
+    background-color: #416D19;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo {
+    height: 80px;
+    width: 80px;
+}
+.logo {
+    background-image: url("pmpml_logo_80.png");
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+}
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+/* box2 */
+.add-first {
+    color: white;
+    font-size: .95rem;
+    margin-left: 15px;
+}
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+.nav-rural {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+span {
+    font-size: medium;
+    font-weight: 700;
+}
+.nav-city {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+
+}
+.nav-city a{
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+}
+.nav-rural a{
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.aboutu-us a{
+    text-decoration: none;
+    color: white;
+    text-transform: none;
+}
+/** pannel **/
+.pannel {
+    height: 40px;
+    background-color: #212529;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pannel-ops p {
+    display: inline;
+    margin-left: 15px;
+
+
+}
+.pannel-ops p:hover {
+    border: 2px solid white;
+
+}
+.pannel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+.pannel-cancelation {
+    font-size: 0.9rem;
+    font-family: 700;
+}
+.pannel-cancelation p:hover {
+    border: 2px solid white;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  width: 1000px;
+  margin: auto;
+  margin-top: 2px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+.mySlides img {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    max-width: 100vw;
+    width: 100vw;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+.city-pass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+ 
+ }
+ .click-rural-pass{
+    height: 580px;
+     align-self: center;
+     background-color: #e2e7e6;
+     width: 1550px;
+     margin: 20px 20px 20px 20px;
+     border: 2px solid #f7e8e8;
+    border-radius: 5px;
+    text-align: center; 
+    
+ }
+ .click-city-pass {
+     height: 550px;
+     align-self: center;
+     background-color: #e2e7e6;
+     width: 1550px;
+     margin: 20px 20px 20px 20px;
+     border: 2px solid #f7e8e8;
+    border-radius: 5px;
+    text-align: center; 
+ }
+ .writeup_city {
+     font-size: 24px;
+     line-height: 30px;
+     padding: 5px;
+     margin-top: 5px;
+ }
+ .para_city {
+     padding: 8px;
+     line-height: 30px;
+     font-size: 18px;
+}
+.img-city {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-city1{
+    height: 200px;
+    width: 150px;
+    border: solid 1px #4070f4;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.img-city2{
+    height: 200px;
+    width: 150px;
+    border: solid 1px #4070f4;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.img-city3{
+    height: 200px;
+    width: 150px;
+    border: solid 1px #4070f4;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.img-city4{
+    height: 200px;
+    width: 150px;
+    border: solid 1px #4070f4;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.button-city {
+    margin: 5px;
+    text-align: center;
+    align-self: center;
+}
+button{
+    height: 35px;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    background-color: #fb5607;
+    color: #fff;
+    border-radius: 5px;
+    margin: 25px 0;
+    max-width: 200px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.button-city-1{
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+button:hover{
+    background-color: #fb5607;
+}
+footer {
+    margin-top: 15px;
+}
+.footpanel-1 {
+    background-color: #416D19;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+.footpanel-1 a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.footpanel-2 {
+    background-color: #416D19;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+ul {
+    margin-top: 10px;
+}
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.footpanel-3 {
+    background-color: #416D19;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    
+}
+@keyframes spin {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+.logo2 {
+    background-image: url("pmpml_logo_80.png");
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+}
+.logo2 {
+    height: 80px;
+    width: 80px;
+    
+    
+}
+.logo2 :hover {
+    animation: spin 2s ease-in-out 0.2s infinite normal;
+}
+.footpanel-4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+.pages {
+   padding-top: 25px;   
+}
+.copyright {
+    padding: 5px;
+   
+}

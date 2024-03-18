@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="gen40.css">
+</head>
+<body>
+    <center>
+    <div id="id-card">
+        <div class="id-card material-ui-shadow">
+      
+          <!-- \\ mugshot -->
+          <div class="id-card__mugshot">
+            <img src="./pmpml_logo_80.png" id="id-card-mugshot">
+          </div>
+          <!-- // mugshot -->
+      
+          <!-- \\ foundation logo -->
+          <div class="id-card__logo logo">
+            <span class="logo__big">PMPML</span><br>
+            <span class="logo__small">Rural Pass</span>
+          </div>
+          <!-- // foundation logo -->
+      
+          <!-- \\ subject id -->
+          <div class="id-card__subject-id">
+      
+          </div>
+          <!-- // subject id -->
+      
+          <!-- \\ experiment banner -->
+          <div class="id-card__banner">
+            <span class="id-card__banner-text">Details</span>
+          </div>
+          <!-- // experiment banner -->
+      
+          <!-- \\ details -->
+          <div class="id-card__details">
+            <div class="id-card__detail">
+              <span class="id-card__detail-label">Name</span>
+              <span class="id-card__detail-value" id="name"></span>
+            </div>
+            <div class="id-card__detail">
+              <span class="id-card__detail-label">ID Card Type : </span>
+              <span class="id-card__detail-value" id="idtype"></span>
+            </div>
+            <div class="id-card__detail">
+              <span class="id-card__detail-label">ID Number :</span>
+              <span class="id-card__detail-value" id="idnum"></span>
+            </div>
+            <div class="id-card__detail">
+              <span class="id-card__detail-label">Issue Date</span>
+              <span class="id-card__detail-value" id="date"></span>
+            </div>
+          </div>
+          <!-- // details -->
+      
+          <!-- \\ short details -->
+          <div class="id-card__details id-card__details--short">
+            <div class="id-card__detail">
+              <span class="id-card__detail-label">Gender</span>
+              <span class="id-card__detail-value" id="gender"></span>
+            </div>
+            
+            <div class="id-card__detail">
+              <span class="id-card__detail-label">Mobile No.</span>
+              <span class="id-card__detail-value" id="mobile"></span>
+            </div>
+          </div>
+          <!-- // short details -->
+      
+        </div>
+      </div>
+      
+     </center>
+   
+      
+</body>
+<script>
+    const mobile = sessionStorage.getItem("mobile");
+   const namea = sessionStorage.getItem("name");
+   const date = sessionStorage.getItem("date");
+   const gender = sessionStorage.getItem("gender");
+   const id = sessionStorage.getItem("id");
+   const idnum = sessionStorage.getItem("idnum");
+   
+   // Displaying retrieved data in HTML
+   document.getElementById("name").textContent = namea;
+   document.getElementById("idtype").textContent = id;
+   document.getElementById("idnum").textContent = idnum;
+   document.getElementById("date").textContent = date;
+   document.getElementById("gender").textContent = gender;
+   document.getElementById("mobile").textContent = mobile;
+
+</script>
+</html>

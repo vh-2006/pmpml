@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar {
+    height: 90px;
+    background-color: #416D19;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo {
+    height: 80px;
+    width: 80px;
+}
+.logo {
+    background-image: url("pmpml_logo_80.png");
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+}
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+/* box2 */
+.add-first {
+    color: white;
+    font-size: .95rem;
+    margin-left: 15px;
+}
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+.nav-rural {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+span {
+    font-size: medium;
+    font-weight: 700;
+}
+.nav-city {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+.aboutu-us  a{
+    color: white;
+    text-decoration: none;
+}
+.pannel {
+    height: 40px;
+    background-color: #212529;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pannel-ops {
+    width: 70%;
+    font-size: 0.90rem;
+    text-align: center;
+}
+/* box2 */
+.add-first {
+    color: white;
+    font-size: .95rem;
+    margin-left: 15px;
+}
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+.nav-rural {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.myimg {
+    margin-top: 5px;
+}
+.head1 {
+    font-family: sans-serif;
+    font-size: 32px;
+}
+footer {
+    margin-top: 15px;
+}
+.footpanel-1 {
+    background-color: #416D19;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+.footpanel-1 a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.footpanel-2 {
+    background-color: #416D19;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+ul {
+    margin-top: 10px;
+}
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+
+}
+.footpanel-3 {
+    background-color: #416D19;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    
+}
+@keyframes spin {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+.logo2 {
+    background-image: url("pmpml_logo_80.png");
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+}
+
+.footpanel-4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+.pages {
+   padding-top: 25px;   
+}
+.copyright {
+    padding: 5px;
+   
+}
